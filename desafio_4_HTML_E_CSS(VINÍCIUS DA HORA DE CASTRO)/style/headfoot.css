@@ -7,7 +7,7 @@
 :root {
     --cor_margens: #1b357e;
     --cor_botoes: #1351db;
-    --cor_cinza_claro: #dde2ec;
+    --cor_cinza_claro: #ebedf3;
 }
 
 header {
@@ -41,7 +41,7 @@ header {
 .cabeçalho_link {
     text-decoration: none;
     font-size: 150%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: var(--cor_botoes);
     font-weight: bold;
 }
@@ -72,7 +72,7 @@ footer {
     padding-top: 1%;
     display: flex;
     width: 7.5%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 100%;
 }
   
@@ -99,6 +99,7 @@ footer {
     width: 72%;
     font-size: 100%;
     justify-content: center;
+    font-family: "Montserrat", sans-serif;
 }
 
 .logo2 {

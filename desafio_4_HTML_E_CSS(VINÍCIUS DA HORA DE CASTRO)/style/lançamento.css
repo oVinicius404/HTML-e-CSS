@@ -7,7 +7,7 @@
 :root {
     --cor_margens: #1b357e;
     --cor_botoes: #1351db;
-    --cor_cinza_claro: rgb(228, 228, 228);
+    --cor_cinza_claro: #ebedf3;
 }
 
 main {
@@ -37,18 +37,17 @@ main {
 }
 
 table {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    font-family: montserrat;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+    width: 95%;
+    font-family: "Montserrat", sans-serif;
+
+    min-height: 0px;
+    max-width: 100%;
 }
 
-.carros_img {
-    display: flex;
-    width: 100%;
-
+.carros_img {   
     min-width: 0px;
     max-width: 100%;
 }
@@ -56,13 +55,24 @@ table {
 input[type=checkbox] {
     width: 5%;
     height: 25px;
+    vertical-align: middle;
+    margin-right: 2%;
 }
 
-.carros_nomes {
-    display: flex;
-    width: 100%;
+td, th {
+    padding: 7px;
+    text-align: center;
+    vertical-align: top;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.carros_nomes td, .preços td {
+    padding: 7px;
+}
+
+.carros_nomes td {
     color: var(--cor_margens);
-    padding: 1px;
 }
 
 .botao_div {
@@ -78,7 +88,7 @@ input[type=checkbox] {
     padding: 0.5% 0.5% 0.5% 0.5%;
     background-color: var(--cor_botoes);
     color: white;
-    font-family: montserrat;
+    font-family: "Montserrat", sans-serif;
     font-size: 100%;
     justify-content: center;
     align-items: center;
