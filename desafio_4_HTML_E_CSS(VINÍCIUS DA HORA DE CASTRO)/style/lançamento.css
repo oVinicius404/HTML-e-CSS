@@ -36,6 +36,50 @@ main {
     max-width: 100%;
 }
 
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 70%;
+    font-family: "Montserrat", sans-serif;
+
+    min-height: 0px;
+    max-width: 100%;
+}
+
+.carros_img {
+    min-width: 0px;
+    max-width: 100%;
+}
+
+input[type=checkbox] {
+    width: 5%;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 2%;
+}
+
+td, th {
+    padding: 7px;
+    text-align: center;
+    vertical-align: top;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.carros_nomes td, .preços td {
+    padding: 7px;
+}
+
+.carros_nomes td {
+    color: var(--cor_margens);
+}
+
+.info {
+    display: flex;
+    padding-left: 90%;  
+}
+
 .botao_div {
     display: flex;
     width: 100%;
